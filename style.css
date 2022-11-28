@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #2c2c2c;
+    background-color: #999999;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #3b3b3b;
+    background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -33,7 +33,7 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .profile .profile-image {
@@ -42,14 +42,14 @@
 }
 
 .name {
-    color: #e9e7e7;
+    color: #D6DBDF;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .profession {
-    color: #d6c914;
+    color: #eeeeee;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -57,7 +57,7 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #ffffff;
+    color: #eeeeee;
     font-size: 20px;
 }
 
@@ -68,8 +68,7 @@
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    font-size: 16px;
-    color: #d6c914;
+    color: #eeeeee;
 }
 
 .contact-info ul li i,
@@ -84,7 +83,7 @@
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6c914;
+    color: #eeeeee;
 }
 
 .right-section-contents {
@@ -92,8 +91,7 @@
 }
 
 .right-title {
-    color: #d6c914;
-    font-size: 18px;
+    color: #eeeeee;
 }
 
 .gap {
@@ -103,7 +101,38 @@
     font-size: 18px;
     color: #eeeeee;
 }
-.about-my-experience {
-    color: #d6c914;
-    font-size: 18px
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
