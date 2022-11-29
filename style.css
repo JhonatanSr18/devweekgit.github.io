@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #ffa600;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #222831;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #393e46;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .name {
-    color: #D6DBDF;
+    color: #0092ca;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #ffffff;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -68,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #0092ca;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ body {
 
 .contact-info ul li,
 .references ul li {
-    padding: .4rem 0;
+    padding-left: .4rem 0;
     display: flex;
     align-items: center;
     color: #d6dbdfaf;
@@ -135,14 +135,14 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
-    font-size: 40px;
+    color: #0092ca;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding-left: 1rem 0;
     position: relative;
 }
 
@@ -201,7 +201,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #a5a3a3;
+    border-left: 3px solid #ececec;
     padding-left: 5px;
 }
 
