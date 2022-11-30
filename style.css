@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #222831;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #393e46;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .name {
-    color: #D6DBDF;
+    color: #0092ca;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #0092ca;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -80,10 +80,11 @@ body {
 }
 
 .more-about-me {
-    color: #FDB44B;
+    color: #ffffff;
     font-size: 17px;
     letter-spacing: 2px;
-    text-transform: none;
+    text-transform:lowercase;
+    font-style: italic;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -166,9 +167,10 @@ body {
 }
 .about-me-contents {
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 2rem;
-    color: #F1F8FD;
+    color: #FDB44B;
+    font-weight: bold;
 }
 
 .experience-contents,
